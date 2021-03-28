@@ -1,4 +1,4 @@
-function [D1,D2,D3,D4,D5,D6,D7,D8,A8] = DalgacikDonusumu(signal)
+function [cD1,cD2,cD3,cD4,cD5,cD6,cD7,cD8,cA8] = DalgacikDonusumu(signal)
 S =signal;
 
 waveletFunction = 'db8';
