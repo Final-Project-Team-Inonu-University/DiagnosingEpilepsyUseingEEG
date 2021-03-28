@@ -1,0 +1,30 @@
+function PlotEeg(D1,D2,D3,D4,D5,D6,D7,D8,A8,name)
+figure('NumberTitle', 'off', 'Name', name);
+subplot(9,1,1);
+plot(D1,'r');
+legend('Noisy')
+subplot(9,1,2);
+plot(D2,'r');
+legend('Noisy')
+subplot(9,1,3);
+plot(D3,'r');
+legend('Noisy')
+subplot(9,1,4);
+plot(D4,'r');
+legend('Noisy')
+subplot(9,1,5);
+plot(D5,'r');
+legend('Gamma')
+subplot(9,1,6);
+plot(D6,'r');
+legend('Beta')
+subplot(9,1,7);
+plot(D7,'r');
+legend('Alpha')
+subplot(9,1,8);
+plot(D8,'r');
+legend('Theta')
+subplot(9,1,9);
+plot(A8,'b')
+legend('Delta')
+end
