@@ -1,2 +1,2 @@
 # DiagnosingEpilepsyUseingEEG
-#You can reach the final version of the project here.
+# You can reach the final version of the project here.
